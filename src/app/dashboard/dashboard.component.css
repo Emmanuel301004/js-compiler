@@ -1,0 +1,131 @@
+textarea{
+    display: block;
+    background-color: purple;
+    border: 3px solid black;
+    font-style: normal;
+    color: white;
+    padding: 1rem;
+    width: 750px;
+    height: 800vh;
+    margin-left: 0;
+    caret-color: rgb(250, 244, 244);
+}
+button{
+    color: white;
+    border: 2px solid rebeccapurple;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-top: 3vh;
+    
+}
+button:hover{
+    background-color: rebeccapurple;
+}
+button:active{
+    background-color: rgb(41, 14, 56);
+    outline-color: rgb(240, 75, 240);
+}
+h1{
+    
+    padding-top: 1.5rem;
+    }
+.header{
+    display: flex;
+    
+    text-align: center;
+    margin-top: 3vh;
+    
+}
+.box1{
+    border: 1px solid white;
+    width: 49.6%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.box2{
+    border: 1px solid white;
+    width: 50.2%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.container{
+    text-align: center;
+    color: white;
+}
+textarea::placeholder{
+    color: rgb(212, 211, 211);
+}
+.container2{
+    display: flex;
+    
+
+}
+pre{
+    border: 1px solid black;
+    width: 51%;
+    background: linear-gradient(#504b45 0%, #3c3b37 100%);
+    text-align: left;
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+/* Tooltip container */
+.tooltip-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+  }
+  
+  /* Tooltip text */
+  .tooltip-text {
+    visibility: hidden;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 80%; /* Position above the button */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    white-space: nowrap;
+  }
+  
+  /* Tooltip arrow */
+  .tooltip-text::after {
+    content: "";
+    position: absolute;
+    top: 100%; /* Arrow pointing downwards */
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+  }
+  
+  /* Show the tooltip text when hovering over the container */
+  .tooltip-container:hover .tooltip-text {
+    visibility: visible;
+    opacity: 1;
+  }
+  .feedback-button-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.feedback-button {
+    background-color: #4CAF50; /* Green background */
+    color: white;              /* White text */
+    border: none;              /* Remove borders */
+    padding: 10px 20px;        /* Padding */
+    text-align: center;        /* Centered text */
+    text-decoration: none;     /* Remove underline */
+    display: inline-block;     /* Make it inline */
+    font-size: 16px;           /* Font size */
+    cursor: pointer;           /* Pointer cursor on hover */
+    border-radius: 5px;        /* Rounded corners */
+}
